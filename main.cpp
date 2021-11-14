@@ -1,6 +1,19 @@
 #include <iostream>
-using namespace std;
 
+using namespace std;
 int main() {
-   return 0;
+    int a = 0, b = 1, c = a+b;
+    int n=0;
+    cin>>n;
+
+
+        cout << 1 << endl;
+        while (c<=n) {
+            cout << c << endl;
+            a = b;
+            b = c;
+            c = a + b;
+        }
+
+    return 0;
 }
